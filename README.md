@@ -8,7 +8,7 @@ On Main
 | -------- | ------- | -------            |
 | 8.3.2    | 8.4     |  1.3.1             |
 
-On updrade_slack_1.4.1
+On upgrade_slack_1.4.1
 | AGP      | Gradle  | Slack Compose Lint |
 | -------- | ------- | -------            |
 | 8.3.2    | 8.4     |  1.4.1             |
@@ -19,6 +19,6 @@ On upgrade_all
 | 8.7      | 8.9     |  1.4.1             |
 
 Lint Outcomes
-| Main     | updrade_slack_1.4.1 | upgrade_all |
+| Main     | upgrade_slack_1.4.1 | upgrade_all |
 | -------- | -------             | -------     |
-| Fail     |                     |             |
+| Fail     | Fail                |             |
