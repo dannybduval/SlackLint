@@ -21,4 +21,4 @@ On upgrade_all
 Lint Outcomes
 | Main     | upgrade_slack_1.4.1 | upgrade_all |
 | -------- | -------             | -------     |
-| Fail     | Fail                |             |
+| Fail     | Fail                | Fail        |
