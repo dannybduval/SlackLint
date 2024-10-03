@@ -29,6 +29,6 @@ On upgrade_all
 | 8.7      | 8.9     |  1.4.1             |
 
 Lint Outcomes
-| Main     | upgrade_slack_1.4.1 | upgrade_slack_agp_8.6 | upgrade_all |
-| -------- | -------             | -------               | -------     |
-| Fail     | Fail                | Fail                  | Pass        |
+| Main              | upgrade_slack_1.4.1  | upgrade_slack_agp_8.6 | upgrade_all                 |
+| --------          | -------              | -------               | -------                     |
+| Failed (expected) | Passed (should fail) | Passed (should fail)  | Failed (should fail)        |
