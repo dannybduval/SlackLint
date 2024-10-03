@@ -13,12 +13,17 @@ On upgrade_slack_1.4.1
 | -------- | ------- | -------            |
 | 8.3.2    | 8.4     |  1.4.1             |
 
+On upgrade_slack_agp_8.6
+| AGP      | Gradle  | Slack Compose Lint |
+| -------- | ------- | -------            |
+| 8.6.1    | 8.7     |  1.4.1             |
+
 On upgrade_all
 | AGP      | Gradle  | Slack Compose Lint |
 | -------- | ------- | -------            |
 | 8.7      | 8.9     |  1.4.1             |
 
 Lint Outcomes
-| Main     | upgrade_slack_1.4.1 | upgrade_all |
-| -------- | -------             | -------     |
-| Fail     | Fail                | Fail        |
+| Main     | upgrade_slack_1.4.1 | upgrade_slack_agp_8.6 | upgrade_all |
+| -------- | -------             | -------               | -------     |
+| Fail     | Fail                | Fail                  | Pass        |
